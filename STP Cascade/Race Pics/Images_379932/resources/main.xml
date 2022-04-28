@@ -1,0 +1,42 @@
+<MAIN>
+  <COBRAND IMAGE = "resources/logos/cobrand.jpg" LINK = "http://www.cascade.org/rides" />
+  <INTRO ENABLED = "true" TXT = "Cascade Bicycle Club               " SOUND = "audio/intro.mp3" VOLUME = ".5" TRANSITION = "slideLeft" />
+  <WELCOME ENABLED = "true" VIDEO = "false" />
+  <COLOR_SCHEME PRIMARY = "0xea5e29" />
+  <SLIDESHOW TIME = "5" />
+  <MUSIC VOLUME = ".1" >
+		<ITEM URL = "./audio/Race_ST1.mp3" />				
+  </MUSIC>
+  <PAGES>
+    <PAGE TITLE = "Home" TYPE = "tileView" PAGE_TITLE = "" >
+      <TILE_MENU>
+        <IMAGE></IMAGE>
+        <TITLE></TITLE>
+      </TILE_MENU>
+    </PAGE>
+    <PAGE TITLE = "My Images" TYPE = "enhancedSlideshow" PAGE_TITLE = "" >
+      <TILE_MENU>
+        <IMAGE>resources/home/MyImages.jpg</IMAGE>
+        <TITLE></TITLE>
+      </TILE_MENU>
+    </PAGE>
+        <PAGE TITLE = "Event Highlights" TYPE = "enhancedSlideshow" PAGE_TITLE = "" >
+      <TILE_MENU>
+        <IMAGE>resources/home/EventHighlights.jpg</IMAGE>
+        <TITLE></TITLE>
+      </TILE_MENU>
+    </PAGE>
+    <PAGE TITLE = "All Images" TYPE = "enhancedSlideshow" PAGE_TITLE = "" >
+      <TILE_MENU>
+        <IMAGE>resources/home/AllImages.jpg</IMAGE>
+        <TITLE></TITLE>
+      </TILE_MENU>
+    </PAGE>
+    <PAGE TITLE = "Instructions" TYPE = "textImage" PAGE_TITLE = "" >
+      <TILE_MENU>
+        <IMAGE></IMAGE>
+        <TITLE></TITLE>
+      </TILE_MENU>
+    </PAGE>
+  </PAGES>
+</MAIN>

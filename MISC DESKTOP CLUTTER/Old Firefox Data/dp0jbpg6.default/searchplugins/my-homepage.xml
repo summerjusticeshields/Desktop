@@ -1,0 +1,16 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Search the web</os:ShortName>
+<os:Description>Listchack</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AXpGQE18RkLRsIqBXf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B2L65A5VjWn9LFhXtQA4O/202McH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BwZyZGWAnJolLGRf/QRAR/1chH7+ndnBD////Af///wH///8B////Ab2WhgnBqIMJ////Af///wH///8BmGxjKXQ7N8NBDw//ShQT/3xGP6+DPkYb////Af///wH///8B6trJM8Gag4HIoom/yaaMwb2WfIHGp5YxvpiGFYZMP7dHExP/ShUT/WQuKn3Kq6AV////Af///wH///8BkF9IPc2jid/mxJr/89mr//PZrv/pyaL/yJ6D37mLcMXBln3/czs1655ta2////8B////Af///wH///8B3L64HdSwk93sy5r//+vB///x1v//89v//+3D//LVpv/GnH3/u4twm6V2diP///8B////Af///wH///8B////Acywnm/asof//+i4///04v//+vP///r4//745v//68H/476R/7yTfGf///8B////Af///wH///8B////Af///wHQrpGd58CK///xyf/++e//////////////+vP///HP/+zGk//Qrpa72MG+B////wH///8B////Af///wH///8B07KZp+bBjP//78n//vjt///+/v///////vry///xz//sxZD/066Ry9rErgv///8B////Af///wH///8B////AdOwl3fasob//+vD//7v1v/++Ov//vnt//7z3P//6b//37eJ/8+qkY3///8B////Af///wH///8B////Af///wHJtqgvz6qG7enNpP//9Nv///PW///z1v//89T/7s+i/82jgPPm08FL////Af///wH///8B////Af///wH///8B////AeO2olfNp4br3buW//Devv/w27n/4cCX/8+mfuvPn4Zf////Af///wH///8B////Af///wH///8B////Af///wH///8B3s6yM9CujHm8i2WPyp9+1cyijIHeuq4z////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//w==</os:Image>
+<SearchForm>http://search.listchack.com/results.html?c=1&amp;v=insMac&amp;t=1507&amp;ap=1435330838181129&amp;r=51d3fb596d0fdd9f2edfc0fd594b4216</SearchForm>
+<os:Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;client=firefox&amp;hl={moz:locale}&amp;q={searchTerms}" resultDomain="suggestqueries.google.com">
+</os:Url><os:Url type="text/html" method="GET" template="http://search.listchack.com/results.html" resultDomain="search.listchack.com">
+  <os:Param name="c" value="1"/>
+  <os:Param name="v" value="insMac"/>
+  <os:Param name="t" value="1507"/>
+  <os:Param name="ap" value="1435330838181129"/>
+  <os:Param name="r" value="51d3fb596d0fdd9f2edfc0fd594b4216"/>
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

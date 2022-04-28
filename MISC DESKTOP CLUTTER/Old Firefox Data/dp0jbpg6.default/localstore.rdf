@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#titlebar-placeholder-on-TabsToolbar-for-fullscreen-button"
+                   width="16" />
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"
+                   screenX="419"
+                   screenY="175" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDateAdded"
+                   ordinal="15" />
+  <RDF:Description RDF:about="chrome://mozapps/content/handling/dialog.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/handling/dialog.xul#handling"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#navigator-toolbox"
+                   iconsize="small" />
+  <RDF:Description RDF:about="chrome://mozapps/content/handling/dialog.xul#handling"
+                   screenX="494"
+                   screenY="206"
+                   width="291"
+                   height="308" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#navigator-toolbox"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#titlebar-placeholder-on-TabsToolbar-for-fullscreen-button"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#titlebar-placeholder-on-TabsToolbar-for-captions-buttons"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul">
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentTags"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentUrl"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDate"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentVisitCount"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentKeyword"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDescription"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDateAdded"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentLastModified"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#titlebar-placeholder-on-TabsToolbar-for-captions-buttons"
+                   width="61" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentVisitCount"
+                   ordinal="9" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDescription"
+                   ordinal="13" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
+                   width="1280"
+                   height="724"
+                   screenX="13"
+                   screenY="31"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentUrl"
+                   ordinal="5" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentTags"
+                   ordinal="3" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentLastModified"
+                   ordinal="17" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentKeyword"
+                   ordinal="11" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDate"
+                   ordinal="7"
+                   sortDirection="descending" />
+</RDF:RDF>
